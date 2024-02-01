@@ -2,15 +2,16 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/crazygit/go-downloading-tool/util"
-	"github.com/schollz/progressbar/v3"
-	"github.com/sirupsen/logrus"
-	"github.com/spf13/cobra"
 	"io"
 	"log"
 	"net/http"
 	"os"
 	"strings"
+
+	"github.com/saugat86/go-downloading-tool/util"
+	"github.com/schollz/progressbar/v3"
+	"github.com/sirupsen/logrus"
+	"github.com/spf13/cobra"
 )
 
 var (
